@@ -26,7 +26,7 @@
 #include "Decorator/D_CheckMovementInput.h"
 #include "Decorator/D_RepeatXTimes.h"
 #include "Decorator/D_CheckAlive.h"
-
+#include "Decorator/D_CheckNearestAlive.h"
 
 // Example Leaf Nodes
 #include "Leaf/L_CheckMouseClick.h"

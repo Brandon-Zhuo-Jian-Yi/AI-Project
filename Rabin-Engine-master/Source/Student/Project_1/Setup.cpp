@@ -11,9 +11,14 @@ void ProjectOne::setup()
 
 
 	auto agent = agents->get_all_agents();
-	agent[0]->set_position(Vec3{ 50,0,50 });
 
-	for (int i = 0; i <= 10; ++i) {
+	auto agent1 = agents->create_behavior_agent("AIAgent", BehaviorTreeTypes::MoveTester);
+	agent1->set_position(Vec3{ 50,0,50 });
+	
+
+
+
+	for (int i = 0; i < 7; ++i) {
 
 		//agents->create_behavior_agent("MainAgent", BehaviorTreeTypes::Main_AI);
 		agents->create_behavior_agent("AIAgent", BehaviorTreeTypes::MoveTester);
@@ -41,7 +46,7 @@ void ProjectOne::setup()
 		i++;
 	}
 
-
+	
 
 	// you can technically load any map you want, even create your own map file,
 	// but behavior agents won't actually avoid walls or anything special, unless you code that yourself

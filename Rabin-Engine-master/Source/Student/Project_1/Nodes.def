@@ -15,7 +15,7 @@ REGISTER_DECORATOR(D_Initialize, "D_Initialize")
 REGISTER_DECORATOR(D_CheckMovementInput, "D_CheckMovementInput")
 REGISTER_DECORATOR(D_RepeatXTimes, "D_RepeatXTimes")
 REGISTER_DECORATOR(D_CheckAlive, "D_CheckAlive")
-
+REGISTER_DECORATOR(D_CheckNearestAlive, "D_CheckNearestAlive")
 
 
 

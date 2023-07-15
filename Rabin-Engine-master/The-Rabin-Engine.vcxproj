@@ -182,6 +182,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Source\Student\Project_1\ControlFlow\C_InputBasedSelector.h" />
+    <ClInclude Include="Source\Student\Project_1\Decorator\D_CheckNearestAlive.h" />
     <ClInclude Include="Source\Student\Project_1\Decorator\D_CheckAlive.h" />
     <ClInclude Include="Source\Student\Project_1\Decorator\D_CheckMovementInput.h" />
     <ClInclude Include="Source\Student\Project_1\Decorator\D_Follower.h" />
@@ -287,6 +288,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\Student\Project_1\ControlFlow\C_InputBasedSelector.cpp" />
+    <ClCompile Include="Source\Student\Project_1\Decorator\D_CheckNearestAlive.cpp" />
     <ClCompile Include="Source\Student\Project_1\Decorator\D_CheckAlive.cpp" />
     <ClCompile Include="Source\Student\Project_1\Decorator\D_CheckMovementInput.cpp" />
     <ClCompile Include="Source\Student\Project_1\Decorator\D_Follower.cpp" />

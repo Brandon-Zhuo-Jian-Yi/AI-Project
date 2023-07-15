@@ -22,9 +22,7 @@ void L_CheckForEventTrigger::on_update(float dt)
             on_failure();
         }
 
-        
-        
-        
+          
     }
     
     else
